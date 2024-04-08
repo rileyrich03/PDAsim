@@ -1,0 +1,10 @@
+InputAlpha = {1,0}
+StackAlpha = {1,0}
+States = {two, three} 
+Start = {one}
+Finals = {three}
+Transitions = {(one->one,1,_,1), (one->one,1,1,11), (one->one,1,0,10), 
+               (one->one,0,_,0), (one->one,0,1,01), (one->one,0,0,00),
+               (one->two,0,0,_), (one->two,1,1,_),  (two->two,1,1,_),
+               (two->two,0,0,_), (two->three,_,_,_), (one->two,_,_,_),
+               (two->three,_,_,_)}
